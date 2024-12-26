@@ -4,7 +4,6 @@
 
 This project implements a simple **Phone Book and Messaging System** using the Motoko programming language. The system provides functionality for storing phone book entries and maintaining a history of messages sent. The code is designed as an actor-based system, enabling asynchronous interactions and queries.
 
----
 
 ## Features
 
@@ -16,7 +15,6 @@ This project implements a simple **Phone Book and Messaging System** using the M
 - **Send Messages:** Send a message to a recipient, associating the message with the sender's phone number.
 - **Retrieve Message History:** Query message history for a given sender's phone number.
 
----
 
 ## Data Structures
 
@@ -34,7 +32,6 @@ This project implements a simple **Phone Book and Messaging System** using the M
 - **phoneBook:** A hash map to store phone book entries. Keys are `Name`, and values are `Entry`.
 - **MessageHistory:** A hash map to store message history. Keys are `Phone` (sender's phone), and values are `Message`.
 
----
 
 ## Public Methods
 
